@@ -24,7 +24,7 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "build-artifacts-testing-DK-002-PROD-0009",
+                    name: "build-artifacts-testing-DK-002-VPC-0009",
                     version: "1.0.9",
                     type: "docker",
                     url: "http://localhost-test-preprod:0009",
