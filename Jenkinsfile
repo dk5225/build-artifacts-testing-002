@@ -24,12 +24,12 @@ pipeline {
                 echo 'Registering the metadata'
                 echo 'Another echo to make the pipeline a bit more complex'
                 registerBuildArtifactMetadata(
-                    name: "build-artifacts-testing-DK-002-VPC-0009",
-                    version: "1.0.9",
+                    name: "build-artifacts-testing-DK-002-VPC-0010",
+                    version: "1.0.10",
                     type: "docker",
-                    url: "http://localhost-test-preprod:0009",
+                    url: "http://test-prod.com",
                     digest: "6f637064707039346163663237383938",
-                    label: "qa-ninja"
+                    label: "test-prod-ninja"
                 )
             }
         }
